@@ -3,7 +3,7 @@
 body {
     padding:0px;
     margin:0px;
-    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://github.com/matleno/matleno.github.io/blob/main/img/wallpaper.jpg") center center;
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("wallpaper.jpg") center center;
     background-size:cover;
     width:100vw;
     height:100vh;
@@ -26,7 +26,7 @@ body {
     width:50px;
     height:50px;
     border:12px solid #fff;
-    border-bottom:12px solid rgb(255, 50, 50);
+    border-bottom:12px solid rgb(217, 179, 130);
     border-radius:50%;
     margin:0;
 }
@@ -79,7 +79,7 @@ body {
     padding-bottom:10vh;
 }
 #middle h1 {
-    color:rgb(255, 50, 50);
+    color:rgb(217, 179, 130);
     font-size:70px;
     text-decoration:underline;
 }
@@ -319,9 +319,6 @@ body {
 	color: #fff;
 	background: rgb(255, 50, 50);
 }
-
-
-.circular--portrait { position: relative; width: 200px; height: 200px; overflow: hidden; border-radius: 50%; } .circular--portrait img { width: 100%; height: auto; }
 
 .circular--square { width: 250px;
     height: 250px;
