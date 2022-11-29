@@ -328,9 +328,10 @@ body {
     vertical-align:middle}
 
 .corners1 {
-        object-fit: cover;
+        object-fit: contain;
+        background-color: rgb(255, 255, 255);
         border-radius: 15px 50px;
-        background: #30302f;
+        
         padding: 1px;
         width: 350px;
         height: 250px;
@@ -340,7 +341,6 @@ body {
         object-fit: contain;
         background-color: rgb(255, 255, 255);
         border-radius: 50px 15px;
-        background: #30302f;
         padding: 1px;
         width: 350px;
         height: 250px;
