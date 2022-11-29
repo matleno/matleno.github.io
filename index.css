@@ -320,6 +320,17 @@ body {
 	background: rgb(255, 50, 50);
 }
 
+
+.circular--portrait { position: relative; width: 200px; height: 200px; overflow: hidden; border-radius: 50%; } .circular--portrait img { width: 100%; height: auto; }
+
+.circular--square { width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    display:inline-block;
+    vertical-align:middle}
+
+
 @media (max-width: 800px){ 
     #about {
         display:none;
